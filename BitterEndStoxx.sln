@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitterEndStoxx_BasicAnalysi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAnalysisUnitTests", "BasicAnalysisUnitTests\BasicAnalysisUnitTests.csproj", "{013D6825-BCDE-4237-BD89-C417A9C37286}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitterEndStoxx_Downloaders", "BitterEndStoxx_Downloaders\BitterEndStoxx_Downloaders.csproj", "{262FA900-91C5-4874-BC40-B51C558CB487}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitterEndStoxx_Datasource", "BitterEndStoxx_Downloaders\BitterEndStoxx_Datasource.csproj", "{262FA900-91C5-4874-BC40-B51C558CB487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

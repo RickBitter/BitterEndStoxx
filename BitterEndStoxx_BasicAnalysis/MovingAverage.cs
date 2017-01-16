@@ -28,6 +28,11 @@ namespace BitterEndStoxx.BasicAnalsis
             return res;
         }
 
+        public string getName()
+        {
+            return "Moving Average";
+        }
+
         /// <summary>
         /// abstraction wrapper for input validation, verify the average period and the series data make sense
         /// </summary>

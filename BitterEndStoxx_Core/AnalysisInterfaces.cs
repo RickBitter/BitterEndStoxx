@@ -9,5 +9,6 @@ namespace BitterEndStoxx.Core
     public interface Analysis
     {
         List<Result> Analyze(List<Equity> target, ohlc operateOn = ohlc.Close);
+        string getName();
     }
 }

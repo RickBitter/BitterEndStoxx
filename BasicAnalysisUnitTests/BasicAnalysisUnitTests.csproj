@@ -55,6 +55,7 @@
     <Compile Include="EquityClassTests.cs" />
     <Compile Include="MovingAverage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YahooDownloaderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BitterEndStoxx_BasicAnalysis\BitterEndStoxx_BasicAnalysis.csproj">
@@ -64,6 +65,10 @@
     <ProjectReference Include="..\BitterEndStoxx_Core\BitterEndStoxx_Core.csproj">
       <Project>{bc128351-f642-4b60-a770-9eeebd20d82b}</Project>
       <Name>BitterEndStoxx_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BitterEndStoxx_Downloaders\BitterEndStoxx_Datasource.csproj">
+      <Project>{262fa900-91c5-4874-bc40-b51c558cb487}</Project>
+      <Name>BitterEndStoxx_Datasource</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
